@@ -1,11 +1,13 @@
 import React from 'react';
 import BaminTop from './BaminTop';
-import '../../Style/css/BaminMainTemplate.scss';
+import BaminContent from './BaminContent';
+import '../../Style/css/BaminMain/BaminMainTemplate.scss';
 
 const BaminMainTemplate = () => {
     return (
         <div className="BaminMainTemplate">
             <BaminTop/>
+            <BaminContent/>
         </div>
     );
 };

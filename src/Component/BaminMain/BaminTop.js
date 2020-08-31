@@ -1,7 +1,7 @@
 import React from 'react';
 import {MdNotificationsNone} from 'react-icons/md';
 import {AiOutlineQrcode, AiFillDownCircle} from 'react-icons/ai';
-import '../../Style/css/BaminTop.scss';
+import '../../Style/css/BaminMain/BaminTop.scss';
 
 const BaminTop = () => {
     return (
