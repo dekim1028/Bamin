@@ -1,0 +1,28 @@
+.BaminTop{
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+
+    .addressText{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+        svg{
+            padding-left: 5px;
+            color: #2ac1bc;
+        }
+    }
+
+    .addressText:hover{
+        color: #BDBDBD;
+    }
+
+    svg{
+        font-size: 20px;
+    }
+}
