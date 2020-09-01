@@ -1,10 +1,14 @@
 .BaminTop{
     height: 40px;
+    width: 95%;
     background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 10px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
 
     .addressText{
         display: flex;

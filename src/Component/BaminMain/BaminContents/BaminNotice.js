@@ -12,7 +12,8 @@ import '../../../Style/css/BaminMain/BaminContent/BaminNotice.scss';
 const Container = styled.div`
   width: 100%;
   position: absolute;
-  overflow: hidden; // 선을 넘어간 이미지들은 보이지 않도록 처리합니다.
+  overflow: hidden;
+  top: 8%;
 `;
 
 const BaminNotice = () => {
