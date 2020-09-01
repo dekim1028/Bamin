@@ -8,6 +8,7 @@ export default function BaminNoticeItem({ img }) {
   }
 
 const IMG = styled.img`
-    width: 100%;
-    height: 170px;
+    min-width: 100%;
+    height: auto;
+    max-height: 180px;
 `;
