@@ -11,7 +11,7 @@ import '../../../Style/css/BaminMain/BaminContent/BaminNotice.scss';
 
 const Container = styled.div`
   width: 100%;
-  position: absolute;
+  position: relative;
   overflow: hidden;
   top: 8%;
 `;

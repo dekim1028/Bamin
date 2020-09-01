@@ -1,0 +1,20 @@
+.BaminSearchInput{
+    border:1px solid black;
+    margin:13px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+    .search_input{
+        border: none;
+        background: none;
+        font-size: 11px;
+        padding: 4px 5px;
+    }
+
+    .search_input::placeholder{
+        color: black;
+        font-weight: 600;
+    }
+}
