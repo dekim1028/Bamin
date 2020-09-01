@@ -1,0 +1,27 @@
+.BaminCategoryItem{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding: 7px 0px;
+
+    .category_name{
+        font-size: 14px;
+        font-weight: 900;
+        font-family: 'BMHANNAPro';
+        word-spacing: -8px;
+    }
+
+    .category_name,img{
+        transition: 0.2s;
+    }
+
+    &:hover{
+        img{
+            width: 47px;
+            height: 47px;
+        }
+        .category_name{
+            font-size: 13px;
+        }
+    }
+}
