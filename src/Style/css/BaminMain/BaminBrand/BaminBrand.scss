@@ -1,0 +1,27 @@
+.BaminBrand{
+    position: relative;
+    top: 3.2rem;
+    background: white;
+    box-shadow: 0px 0.1px;
+
+    .title{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 15px 12px;
+        
+        .lbl_name{
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .lbl_full{
+            font-size: 11px;
+        }
+    }
+
+    .brandlist{
+        display: inline-flex;
+        padding: 0 6px;
+    }
+    
+}

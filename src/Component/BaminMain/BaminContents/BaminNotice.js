@@ -13,7 +13,6 @@ const Container = styled.div`
   width: 100%;
   position: relative;
   overflow: hidden;
-  top: 8%;
 `;
 
 const BaminNotice = () => {

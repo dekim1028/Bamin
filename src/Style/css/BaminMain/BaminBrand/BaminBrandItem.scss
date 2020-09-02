@@ -1,0 +1,95 @@
+.BaminBrandItem{
+    width:220px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    top: -25px;
+    box-shadow: 0.2px 0.5px 3px grey;
+
+    .brand_content{
+        color:white;
+        margin: 20px 0 10px;
+        padding:0 15px;
+        .brand_title{
+            padding: 15px 0px 4px;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .brand_explain{
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .btn_box{
+            display: flex;
+            margin-top: 20px;
+            .button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right:10px;
+                background-color: rgba( 255, 255, 255, 0.3 );
+                padding: 5px 13px;
+                font-size: 13px;
+                border-radius: 20px;
+                font-weight: 900;
+                img{
+                    width:20px;
+                    height: 20px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .brand_footer{
+        background: white;
+        border-radius: 0 0 10px 10px;
+        padding: 5px 15px;
+        display: flex;
+        align-items: center;
+
+        .present{
+            margin-right: 3px;
+            svg{
+                color: darkgoldenrod;
+                font-size: 20px;
+            }
+        }
+
+        .comment{
+            font-size: 13px;
+        }
+    }
+    
+    &.bbq{
+        background: #d32d25;
+    }
+    &.bhc{
+        background: #f26522;
+    }
+    &.dunkin{
+        background:#ff6d0d;
+    }
+
+    &:hover{
+        filter: brightness(0.9);
+    }
+}
+
+.brand_logo{
+    position: relative;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 0px 2px 3px gray;
+    z-index: 1;
+    img{
+        width:100%;
+    }
+}
