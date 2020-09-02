@@ -1,7 +1,9 @@
 import React,{useState} from 'react';
 import BaminBrandItem from './BaminBrandItem';
 
-import logo1 from '../../../Style/image/brand/brand_logo1.jpeg';
+import logo1 from '../../../Style/image/brand/brand_logo1.jpg';
+import logo2 from '../../../Style/image/brand/brand_logo2.jpg';
+import logo3 from '../../../Style/image/brand/brand_logo3.jpg';
 import '../../../Style/css/BaminMain/BaminBrand/BaminBrand.scss';
 
 const BaminBrand = () => {
@@ -33,8 +35,11 @@ const BaminBrand = () => {
                 <div className="lbl_full">전체보기</div>
             </div>
             <div className="brandlist">
-                <BaminBrandItem logo={logo1} content={brandItem[0]}/>
-               
+                <div className="brandlist_items">
+                    <BaminBrandItem logo={logo1} content={brandItem[0]}/>
+                    <BaminBrandItem logo={logo2} content={brandItem[1]}/>
+                    <BaminBrandItem logo={logo3} content={brandItem[2]}/>
+                </div>
             </div>
         </div>
     );

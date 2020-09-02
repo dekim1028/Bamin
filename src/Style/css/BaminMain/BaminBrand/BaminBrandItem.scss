@@ -1,44 +1,78 @@
 .BaminBrandItem{
-    width:220px;
-    border-radius: 10px;
-    display: inline-block;
-    margin: 0 10px;
-    position: relative;
-    top: -25px;
-    box-shadow: 0.2px 0.5px 3px grey;
+    .brand_logo{
+        position: relative;
+        left: 25px;
+        width: 30px;
+        height: 30px;
+        padding:10px;
+        display: flex;
+        justify-content: center;
+        border-radius: 100%;
+        overflow: hidden;
+        box-shadow: 0px 2px 3px gray;
+        z-index: 1;
+        background: white;
+        img{
+            width:100%;
+        }
+    }
 
     .brand_content{
-        color:white;
-        margin: 20px 0 10px;
-        padding:0 15px;
-        .brand_title{
-            padding: 15px 0px 4px;
-            font-size: 15px;
-            font-weight: 700;
-        }
+        width:220px;
+        border-radius: 10px 10px 0px 0px;
+        display: inline-block;
+        margin: 0 10px;
+        position: relative;
+        top: -25px;
+        box-shadow: 0.2px 0px 3px grey;
 
-        .brand_explain{
-            font-size: 12px;
-            font-weight: 600;
+        &.bbq{
+            background: #d32d25;
         }
-
-        .btn_box{
-            display: flex;
-            margin-top: 20px;
-            .button{
+        &.bhc{
+            background: #f26522;
+        }
+        &.dunkin{
+            background:#ff6d0d;
+        }
+    
+        &:hover{
+            filter: brightness(0.9);
+        }
+    
+        .brand_content_sub{
+            color:white;
+            margin: 20px 0 10px;
+            padding:0 15px;
+            .brand_title{
+                padding: 15px 0px 4px;
+                font-size: 15px;
+                font-weight: 700;
+            }
+    
+            .brand_explain{
+                font-size: 12px;
+                font-weight: 600;
+            }
+    
+            .brand_btn_box{
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-right:10px;
-                background-color: rgba( 255, 255, 255, 0.3 );
-                padding: 5px 13px;
-                font-size: 13px;
-                border-radius: 20px;
-                font-weight: 900;
-                img{
-                    width:20px;
-                    height: 20px;
-                    margin-right: 5px;
+                margin-top: 20px;
+                .button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right:10px;
+                    background-color: rgba( 255, 255, 255, 0.3 );
+                    padding: 5px 13px;
+                    font-size: 13px;
+                    border-radius: 20px;
+                    font-weight: 900;
+                    img{
+                        width:20px;
+                        height: 20px;
+                        margin-right: 5px;
+                    }
                 }
             }
         }
@@ -50,6 +84,10 @@
         padding: 5px 15px;
         display: flex;
         align-items: center;
+        position: relative;
+        top:-25px;
+        margin: 0 10px;
+        box-shadow: 0.2px 0.5px 3px grey;
 
         .present{
             margin-right: 3px;
@@ -62,34 +100,5 @@
         .comment{
             font-size: 13px;
         }
-    }
-    
-    &.bbq{
-        background: #d32d25;
-    }
-    &.bhc{
-        background: #f26522;
-    }
-    &.dunkin{
-        background:#ff6d0d;
-    }
-
-    &:hover{
-        filter: brightness(0.9);
-    }
-}
-
-.brand_logo{
-    position: relative;
-    left: 25px;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    border-radius: 100%;
-    overflow: hidden;
-    box-shadow: 0px 2px 3px gray;
-    z-index: 1;
-    img{
-        width:100%;
     }
 }

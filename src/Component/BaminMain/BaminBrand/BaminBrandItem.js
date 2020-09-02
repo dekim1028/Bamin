@@ -9,15 +9,15 @@ import {GiPresent} from 'react-icons/gi';
 
 const BaminBrandItem = ({logo,content}) => {
     return (
-        <div>
+        <div className="BaminBrandItem">
             <div className="brand_logo">
                 <img src={logo} alt="content.title"/>
             </div>
-            <div className={cn("BaminBrandItem",content.type)}>
-                <div className="brand_content">
+            <div className={cn("brand_content",content.type)}>
+                <div className="brand_content_sub">
                     <div className="brand_title">{content.title}</div>
                     <div className="brand_explain">{content.explain}</div>
-                    <div className="btn_box">
+                    <div className="brand_btn_box">
                         <div className="button">
                             <img src={coupon_icon} alt="쿠폰"/>
                             쿠폰
@@ -28,10 +28,10 @@ const BaminBrandItem = ({logo,content}) => {
                         </div>
                     </div>
                 </div>
-                <div className="brand_footer">
-                    <div className="present"><GiPresent/></div>
-                    <div className="comment">{content.comment}</div>
-                </div>
+            </div>
+            <div className="brand_footer">
+                <div className="present"><GiPresent/></div>
+                <div className="comment">{content.comment}</div>
             </div>
         </div>
         
