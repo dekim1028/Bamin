@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Bamin/static/css/main.4c44ea83.chunk.css",
-    "main.js": "/Bamin/static/js/main.7071938e.chunk.js",
-    "main.js.map": "/Bamin/static/js/main.7071938e.chunk.js.map",
+    "main.css": "/Bamin/static/css/main.750459de.chunk.css",
+    "main.js": "/Bamin/static/js/main.e965bd71.chunk.js",
+    "main.js.map": "/Bamin/static/js/main.e965bd71.chunk.js.map",
     "runtime-main.js": "/Bamin/static/js/runtime-main.13babfa1.js",
     "runtime-main.js.map": "/Bamin/static/js/runtime-main.13babfa1.js.map",
-    "static/js/2.cad27c66.chunk.js": "/Bamin/static/js/2.cad27c66.chunk.js",
-    "static/js/2.cad27c66.chunk.js.map": "/Bamin/static/js/2.cad27c66.chunk.js.map",
+    "static/js/2.ee6614e8.chunk.js": "/Bamin/static/js/2.ee6614e8.chunk.js",
+    "static/js/2.ee6614e8.chunk.js.map": "/Bamin/static/js/2.ee6614e8.chunk.js.map",
     "index.html": "/Bamin/index.html",
-    "precache-manifest.324d1b8e49ccb8a62d357b03af60fdd6.js": "/Bamin/precache-manifest.324d1b8e49ccb8a62d357b03af60fdd6.js",
+    "precache-manifest.76d991d570cf6eafb24e6ba43bed6bb2.js": "/Bamin/precache-manifest.76d991d570cf6eafb24e6ba43bed6bb2.js",
     "service-worker.js": "/Bamin/service-worker.js",
-    "static/css/main.4c44ea83.chunk.css.map": "/Bamin/static/css/main.4c44ea83.chunk.css.map",
-    "static/js/2.cad27c66.chunk.js.LICENSE.txt": "/Bamin/static/js/2.cad27c66.chunk.js.LICENSE.txt",
+    "static/css/main.750459de.chunk.css.map": "/Bamin/static/css/main.750459de.chunk.css.map",
+    "static/js/2.ee6614e8.chunk.js.LICENSE.txt": "/Bamin/static/js/2.ee6614e8.chunk.js.LICENSE.txt",
     "static/media/brand_logo1.jpg": "/Bamin/static/media/brand_logo1.d06aef7e.jpg",
     "static/media/brand_logo2.jpg": "/Bamin/static/media/brand_logo2.f58c7002.jpg",
     "static/media/brand_logo3.jpg": "/Bamin/static/media/brand_logo3.1490ede5.jpg",
@@ -37,12 +37,15 @@
     "static/media/category9.png": "/Bamin/static/media/category9.7204a9b2.png",
     "static/media/notice1.png": "/Bamin/static/media/notice1.34f3f999.png",
     "static/media/notice2.png": "/Bamin/static/media/notice2.ab38ddc4.png",
+    "static/media/notice2_1.png": "/Bamin/static/media/notice2_1.50f62b02.png",
+    "static/media/notice2_2.png": "/Bamin/static/media/notice2_2.988070e4.png",
+    "static/media/notice2_3.png": "/Bamin/static/media/notice2_3.8df8966b.png",
     "static/media/notice3.png": "/Bamin/static/media/notice3.797ea06c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.13babfa1.js",
-    "static/js/2.cad27c66.chunk.js",
-    "static/css/main.4c44ea83.chunk.css",
-    "static/js/main.7071938e.chunk.js"
+    "static/js/2.ee6614e8.chunk.js",
+    "static/css/main.750459de.chunk.css",
+    "static/js/main.e965bd71.chunk.js"
   ]
 }
