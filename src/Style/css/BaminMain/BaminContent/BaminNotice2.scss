@@ -1,0 +1,21 @@
+.BaminNotice2{
+    display: flex;
+}
+
+.noticePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+
+    .noticeIndex{
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-size: 10px;
+        background-color: rgba( 0, 0, 0, 0.5 );
+        padding: 3px 10px;
+        border-radius: 10px;
+        letter-spacing: 1px;
+    }
+}
