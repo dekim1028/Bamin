@@ -1,0 +1,34 @@
+.BaminRecommendList{
+    width: 100%;
+    overflow: hidden;
+    .recommendText{
+        font-size: 18px;
+    }
+    .recommendTag{
+        color:#2ac1bc;
+        font-weight: 600;
+    }
+
+    .BaminRecommendList_sub{
+        height: 255px;
+        display: flex;
+        overflow-x: scroll;
+        -ms-overflow-style: none; // IE에서 스크롤바 감춤
+        &::-webkit-scrollbar { 
+            display: none !important; // 윈도우 크롬 등
+        }
+
+        .plusBtn{
+            margin-top: 75px;
+            padding: 20px;
+            color: #B4B5B8;
+            font-size: 13px;
+            font-weight: 700;
+            text-align: center;
+            svg{
+                transition: ease 0.2s;
+                font-size: 35px;
+            }
+        }
+    }
+}

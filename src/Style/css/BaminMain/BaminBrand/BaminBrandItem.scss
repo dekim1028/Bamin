@@ -18,7 +18,7 @@
     }
 
     .brand_content{
-        width:220px;
+        width:250px;
         border-radius: 10px 10px 0px 0px;
         display: inline-block;
         margin: 0 10px;
@@ -53,11 +53,13 @@
             .brand_explain{
                 font-size: 12px;
                 font-weight: 600;
+                width: 187px;
+                height: 32px;
             }
     
             .brand_btn_box{
                 display: flex;
-                margin-top: 20px;
+                margin-top: 7px;
                 .button{
                     display: flex;
                     justify-content: center;
@@ -69,8 +71,8 @@
                     border-radius: 20px;
                     font-weight: 900;
                     img{
-                        width:20px;
-                        height: 20px;
+                        width: 15px;
+                        height: 15px;
                         margin-right: 5px;
                     }
                 }

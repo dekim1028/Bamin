@@ -16,14 +16,14 @@ const BaminBrand = () => {
         },
         {
             title:"BBQ",
-            explain:"배달 4천원 할인 [9/1~13_13일간]",
-            comment:"던킨도 이제 배달로!",
+            explain:"엑스트라버진 올리브오일을 사용한 치킨",
+            comment:"BBQ치킨 모둠볼 패키지 출시!",
             type:"bbq"
         },
         {
             title:"BHC",
-            explain:"배달 4천원 할인 [9/1~13_13일간]",
-            comment:"던킨도 이제 배달로!",
+            explain:"맴부심있는 얼리어닭터를 위한 신메뉴 맵소킹!",
+            comment:"화끈한 맵소킹시리즈 2천원 할인",
             type:"bhc"
         },
     ]);

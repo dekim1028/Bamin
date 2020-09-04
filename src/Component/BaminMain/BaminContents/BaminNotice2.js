@@ -50,7 +50,7 @@ const BaminNotice = () => {
                 <BaminNoticeItem2 img={notice2} />
                 <BaminNoticeItem2 img={notice3} />
             </div>
-            <div className="noticePage">
+            <div className="noticePage2">
                 <div className="noticeIndex">{currentSlide+1}/3</div>
             </div>
         </Container>
