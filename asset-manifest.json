@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Bamin/static/css/main.750459de.chunk.css",
-    "main.js": "/Bamin/static/js/main.e965bd71.chunk.js",
-    "main.js.map": "/Bamin/static/js/main.e965bd71.chunk.js.map",
+    "main.css": "/Bamin/static/css/main.c28a10ea.chunk.css",
+    "main.js": "/Bamin/static/js/main.b4cb8722.chunk.js",
+    "main.js.map": "/Bamin/static/js/main.b4cb8722.chunk.js.map",
     "runtime-main.js": "/Bamin/static/js/runtime-main.13babfa1.js",
     "runtime-main.js.map": "/Bamin/static/js/runtime-main.13babfa1.js.map",
-    "static/js/2.ee6614e8.chunk.js": "/Bamin/static/js/2.ee6614e8.chunk.js",
-    "static/js/2.ee6614e8.chunk.js.map": "/Bamin/static/js/2.ee6614e8.chunk.js.map",
+    "static/js/2.7a60027d.chunk.js": "/Bamin/static/js/2.7a60027d.chunk.js",
+    "static/js/2.7a60027d.chunk.js.map": "/Bamin/static/js/2.7a60027d.chunk.js.map",
     "index.html": "/Bamin/index.html",
-    "precache-manifest.76d991d570cf6eafb24e6ba43bed6bb2.js": "/Bamin/precache-manifest.76d991d570cf6eafb24e6ba43bed6bb2.js",
+    "precache-manifest.0fa670e7daeab8ba7462bd220bf7e7b8.js": "/Bamin/precache-manifest.0fa670e7daeab8ba7462bd220bf7e7b8.js",
     "service-worker.js": "/Bamin/service-worker.js",
-    "static/css/main.750459de.chunk.css.map": "/Bamin/static/css/main.750459de.chunk.css.map",
-    "static/js/2.ee6614e8.chunk.js.LICENSE.txt": "/Bamin/static/js/2.ee6614e8.chunk.js.LICENSE.txt",
+    "static/css/main.c28a10ea.chunk.css.map": "/Bamin/static/css/main.c28a10ea.chunk.css.map",
+    "static/js/2.7a60027d.chunk.js.LICENSE.txt": "/Bamin/static/js/2.7a60027d.chunk.js.LICENSE.txt",
     "static/media/brand_logo1.jpg": "/Bamin/static/media/brand_logo1.d06aef7e.jpg",
     "static/media/brand_logo2.jpg": "/Bamin/static/media/brand_logo2.f58c7002.jpg",
     "static/media/brand_logo3.jpg": "/Bamin/static/media/brand_logo3.1490ede5.jpg",
@@ -35,6 +35,11 @@
     "static/media/category7.png": "/Bamin/static/media/category7.c2921624.png",
     "static/media/category8.png": "/Bamin/static/media/category8.1320369e.png",
     "static/media/category9.png": "/Bamin/static/media/category9.7204a9b2.png",
+    "static/media/delivery.png": "/Bamin/static/media/delivery.677abf9b.png",
+    "static/media/food_1.jpeg": "/Bamin/static/media/food_1.e8a06cdd.jpeg",
+    "static/media/food_2.jpeg": "/Bamin/static/media/food_2.b6d39283.jpeg",
+    "static/media/food_3.jpeg": "/Bamin/static/media/food_3.edb43abf.jpeg",
+    "static/media/food_4.jpeg": "/Bamin/static/media/food_4.7bcbf5a7.jpeg",
     "static/media/notice1.png": "/Bamin/static/media/notice1.34f3f999.png",
     "static/media/notice2.png": "/Bamin/static/media/notice2.ab38ddc4.png",
     "static/media/notice2_1.png": "/Bamin/static/media/notice2_1.50f62b02.png",
@@ -44,8 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.13babfa1.js",
-    "static/js/2.ee6614e8.chunk.js",
-    "static/css/main.750459de.chunk.css",
-    "static/js/main.e965bd71.chunk.js"
+    "static/js/2.7a60027d.chunk.js",
+    "static/css/main.c28a10ea.chunk.css",
+    "static/js/main.b4cb8722.chunk.js"
   ]
 }
