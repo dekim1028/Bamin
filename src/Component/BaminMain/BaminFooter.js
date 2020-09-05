@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import {AiOutlineDown} from 'react-icons/ai';
+import {AiOutlineDown,AiOutlineUp} from 'react-icons/ai';
 import '../../Style/css/BaminMain/BaminFooter.scss';
 
 const BaminFooter = () => {
@@ -26,7 +26,7 @@ const BaminFooter = () => {
                 <a>사업자정보확인</a> | <a>이용약관</a> | <a>전자금융거래 이용약관</a> | <a>개인정보 처리방침</a>
             </div>
             <div className="copyright">
-                <div className="copyright_subject" onClick={onClick}>(주)우아한형제들 <AiOutlineDown/></div>
+            <div className="copyright_subject" onClick={onClick}>(주)우아한형제들 {showCopyRight?<AiOutlineUp/>:<AiOutlineDown/>}</div>
                 {
                     showCopyRight?
                         <div className="copyright_hidden_text">
