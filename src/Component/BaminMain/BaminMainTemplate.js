@@ -6,6 +6,7 @@ import BaminBrand from './BaminBrand/BaminBrand';
 import BaminRecommend from './BaminRecommend/BaminRecommend';
 
 import '../../Style/css/BaminMain/BaminMainTemplate.scss';
+import BaminFooter from './BaminFooter';
 
 const BaminMainTemplate = () => {
     return (
@@ -15,6 +16,7 @@ const BaminMainTemplate = () => {
             <BaminBrand/>
             <BaminNotice2/>
             <BaminRecommend/>
+            <BaminFooter/>
         </div>
     );
 };

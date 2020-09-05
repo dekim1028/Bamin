@@ -1,0 +1,59 @@
+.BaminFooter{
+    position: relative;
+    top: 5rem;
+
+    .footer_notice{
+        background: white;
+        margin-bottom:2px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        font-size: 13px;
+
+        .notice_category{
+            margin-right: 7px;
+        }
+
+        .notice_content{
+            color: gray;
+        }
+    }
+
+    .footer_link{
+        margin: 20px 10px;
+        font-size: 11px;
+        color: gray;
+    }
+
+    .copyright{
+        margin: 20px 10px;
+        .copyright_subject{
+            font-size: 13px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+        }
+
+        .copyright_hidden_text,.copyright_text{
+            margin-top:10px;
+            font-size: 11px;
+            color: gray;
+        }
+
+        .copyright_hidden_text{
+            .info{
+                border-collapse: collapse;
+                margin: 10px 0 15px 0;
+                border:1px solid rgb(211, 210, 210);
+                width: 100%;
+                td{
+                    border:1px solid rgb(211, 210, 210);
+                    padding: 10px;
+                    width: 50%;
+                }
+                
+                
+            }
+        }
+    }
+}

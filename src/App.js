@@ -1,4 +1,6 @@
 import React from 'react';
+
+import './App.css';
 import BaminMainTemplate from './Component/BaminMain/BaminMainTemplate';
 
 function App() {
