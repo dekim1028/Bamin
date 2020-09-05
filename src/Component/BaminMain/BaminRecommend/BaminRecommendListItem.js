@@ -1,12 +1,13 @@
 import React from 'react';
 
+import cn from 'classnames';
 import '../../../Style/css/BaminMain/BaminRecommend/BaminRecommendListItem.scss';
 import fastDelivery from '../../../Style/image/recommend/fastDelivery.jpeg';
 import {AiOutlineClockCircle} from 'react-icons/ai';
 
-const BaminRecommendListItem = ({item,children}) => {
+const BaminRecommendListItem = ({item,displayType,children}) => {
     return (
-        <div className="BaminRecommendListItem">
+        <div className={cn("BaminRecommendListItem",displayType)}>
             <div className="recommend_content">
                 {children}
             </div>

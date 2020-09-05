@@ -1,6 +1,10 @@
 .BaminRecommendList{
     width: 100%;
-    overflow: hidden;
+
+    &.recommend_flex{
+        overflow: hidden;
+    }
+    
     .recommendText{
         font-size: 18px;
     }
@@ -10,15 +14,17 @@
     }
 
     .BaminRecommendList_sub{
-        height: 255px;
-        display: flex;
-        overflow-x: scroll;
-        -ms-overflow-style: none; // IE에서 스크롤바 감춤
-        &::-webkit-scrollbar { 
-            display: none !important; // 윈도우 크롬 등
+        &.recommend_flex{
+            height: 255px;
+            display: flex;
+            overflow-x: scroll;
+            -ms-overflow-style: none; // IE에서 스크롤바 감춤
+            &::-webkit-scrollbar { 
+                display: none !important; // 윈도우 크롬 등
+            }    
         }
 
-        .plusBtn{
+        .plusBtn_flex{
             margin-top: 75px;
             padding: 20px;
             color: #B4B5B8;
@@ -29,6 +35,21 @@
                 transition: ease 0.2s;
                 font-size: 35px;
             }
+        }
+
+        .plusBtn_block{
+            text-align: center;
+            border: 1px solid #B4B5B8;
+            width: 100px;
+            padding: 6px;
+            border-radius: 15px;
+            font-size: 14px;
+            color: rgb(95, 95, 95);
+            margin: 0 auto;
+        }
+
+        .plusBtn_block:hover{
+            color:#B4B5B8;
         }
     }
 }

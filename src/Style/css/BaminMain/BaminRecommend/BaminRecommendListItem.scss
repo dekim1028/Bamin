@@ -1,57 +1,83 @@
-.BaminRecommendListItem{
-    margin: 0px 5px;
-    .recommend_content{
-        width: 265px;
-        height: 160px;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px 10px 0px 0px;
-        box-shadow: 0.2px 0px 3px grey;
-        img{
-            width: 105%;
-            height: 105%;
-            transition: 0.2s;
-        }
-        img:hover{
-            width: 100%;
-            height: 100%;
-        }
+@mixin recommend_content {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0.2px 0px 3px grey;
+
+    img{
+        width: 105%;
+        height: 105%;
+        transition: 0.2s;
     }
+    img:hover{
+        width: 100%;
+        height: 100%;
+    }
+}
 
-    .recommend_footer{
-        width: 265px;
-        background: white;
-        border-radius: 0px 0px 10px 10px;
-        box-shadow: 0.2px 0.5px 3px grey;
+@mixin recommend_footer {
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0.2px 0.5px 3px grey;
 
-        .recommend_footer_sub{
-            padding:10px;
+    .recommend_footer_sub{
+        padding:10px;
 
-            .storeInfo{
-                display: flex;
-                justify-content: space-between;
-                align-items: baseline;
-                margin-bottom: 6px;
-                .storeName{
-                    font-weight: 600;
-                }
-                .time{
-                    font-size: 14px;
-                    display: flex;
-                    align-items: center;
-                }
+        .storeInfo{
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 6px;
+            .storeName{
+                font-weight: 600;
             }
-
-            .storeMenu{
+            .time{
                 font-size: 14px;
-                color: gray;
-                margin-bottom: 6px;
+                display: flex;
+                align-items: center;
             }
+        }
+
+        .storeMenu{
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 6px;
+        }
+    }
+}
+
+.BaminRecommendListItem{
+
+    &.recommend_flex{
+        margin: 0px 5px;
+        .recommend_content{
+            width: 265px;
+            height: 160px;
+            @include recommend_content;
+        }
+
+        .recommend_footer{
+            width: 265px;
+            @include recommend_footer;
         }
     }
 
+    &.recommend_block{
+        margin: 15px 15px 15px 0;
+        .recommend_content{
+            width: 100%;
+            max-height: 450px;
+            @include recommend_content();
+        }
+
+        .recommend_footer{
+            width: 100%;
+            @include recommend_footer;
+        }
+    }
+    
     .fastDelivery{
         display: flex;
         font-size: 13px;
