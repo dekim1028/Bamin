@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Bamin/precache-manifest.56c35e0ca6e9887f108bbc2c23f8ec3c.js"
+  "/Bamin/precache-manifest.b9cf374295bdaaffd885a763d1367ebd.js"
 );
 
 self.addEventListener('message', (event) => {
