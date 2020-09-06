@@ -1,0 +1,28 @@
+.BaminTabBar{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: white;
+    box-shadow: 0 -0.6px #dddddd;
+    z-index: 999;
+    .tab{
+        color: gray;
+        &.click{
+            color:#2ac1bc;
+        }
+
+        padding:10px;
+        text-align: center;
+        svg{
+            font-size: 25px;
+        }
+
+        div{
+            font-size: 11px;
+            font-weight: 700;
+        }
+    }
+}

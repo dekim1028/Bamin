@@ -7,6 +7,7 @@ import BaminRecommend from './BaminRecommend/BaminRecommend';
 
 import '../../Style/css/BaminMain/BaminMainTemplate.scss';
 import BaminFooter from './BaminFooter';
+import BaminTabBar from './BaminTabBar';
 
 const BaminMainTemplate = () => {
     return (
@@ -17,6 +18,7 @@ const BaminMainTemplate = () => {
             <BaminNotice2/>
             <BaminRecommend/>
             <BaminFooter/>
+            <BaminTabBar/>
         </div>
     );
 };
